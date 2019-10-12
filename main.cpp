@@ -6,7 +6,7 @@
 using namespace std;
 
 
-bool ChecString(char* filename, char* search)
+bool CheckString(char* filename, char* search)
 {
     int offset; 
     string line;
@@ -42,5 +42,7 @@ int main() {
 		fputs("I want to learn PE file format!",oFile);
 	}
 	fclose(oFile);
+	
 	return 0;
+	getchar();
 }
